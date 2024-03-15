@@ -1,0 +1,33 @@
+.navbar-container{
+    display: flex;
+    padding: 10px 5px;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    background-color: white;
+    top: 0;
+}
+
+.navbar-transparent{
+    background-color: transparent;
+}
+
+.navbar-links{
+    display: flex;
+    gap: 50px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.navbar-link-black{
+    color: black;
+}
+
+.navbar-links div{
+    cursor: pointer;
+}
+
+.App{
+    height: 200vh;
+    background-color: blue;
+}
