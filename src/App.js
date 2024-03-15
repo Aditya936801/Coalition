@@ -1,11 +1,12 @@
-import Navbar from "./components/Navbar";
-import "./components/Navbar/navbar.css";
-import Footer from "./components/Footer";
+
+import A from "./components/A";
+import Layout from "./components/Layout";
 const App = () => {
   return (
-    <div className="App">
-      <Navbar />
-      <Footer/>
+    <div >
+     <Layout>
+
+     </Layout>
     </div>
   );
 };
