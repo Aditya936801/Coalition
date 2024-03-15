@@ -1,0 +1,14 @@
+.footer-container{
+    display: flex;
+    padding: 13px 5px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #414f6b;
+    color: #63769d;
+}
+
+.footer-logo-text{
+    display: flex;
+    gap:5px;
+    align-items: center;
+}
