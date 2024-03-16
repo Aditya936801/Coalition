@@ -1,0 +1,19 @@
+.mountain-carousel .mySwiper {
+    width: 60%;
+}
+.mountain-carousel  {
+    position: relative;
+}
+
+.mountain-carousel .swiper-pagination {
+    position: inherit;
+    top: 0;
+}
+.mountain-carousel .swiper-pagination-bullet-active {
+    background-color: white;
+}
+
+.mountain-carousel .slide {
+    width: 100%;
+
+}

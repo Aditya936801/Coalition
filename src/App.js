@@ -1,12 +1,11 @@
-
-import A from "./components/A";
+import LandingPage from "./pages/LandingPage";
 import Layout from "./components/Layout";
 const App = () => {
   return (
-    <div >
-     <Layout>
-
-     </Layout>
+    <div>
+      <Layout>
+        <LandingPage />
+      </Layout>
     </div>
   );
 };
