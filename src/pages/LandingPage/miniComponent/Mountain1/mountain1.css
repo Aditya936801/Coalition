@@ -1,25 +1,25 @@
-.mountain1-container{
+.mountain1-container {
     position: relative;
 }
 
-.mount-container{
+.mount-container {
     position: absolute;
-    top:10%;
-    left:20%;
+    top: 10%;
+    left: 20%;
 }
 
-.mountain1-image{
- width: 100%;
- height: 100vh;
+.mountain1-image {
+    width: 100%;
+    height: 100vh;
 }
 
-.mount-heading-container{
+.mount-heading-container {
     display: flex;
     align-items: end;
 
 }
 
-.mount-text-num{
+.mount-text-num {
     color: #697995;
     font-size: 150px;
     font-weight: bolder;
@@ -27,21 +27,21 @@
     line-height: 80%;
 }
 
-.mount-text-name{
+.mount-text-name {
     color: #414f6b;
     font-size: 40px;
     font-weight: 900;
     text-transform: uppercase;
 }
 
-.mount-dot{
+.mount-dot {
     height: 20px;
     width: 20px;
     background-color: #697995;
 
 }
 
-.mount-content{
+.mount-content {
     padding-left: 10%;
     max-width: 70%;
     font-size: 13px;
@@ -49,10 +49,10 @@
     font-weight: 600;
 }
 
-.mount1-carousel-conatiner{
+.mount1-carousel-conatiner {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: rgba(62, 75, 99,0.7);
+    background-color: rgba(62, 75, 99, 0.7);
     padding: 20px 5px;
 }

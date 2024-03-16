@@ -11,9 +11,7 @@ const Footer = () => {
           MOUNTAINS
         </div>
       </div>
-      <div className="navbar-copyright" >
-      COPYRIGHT 2016. ALL RIGHTS RESERVED.
-      </div>
+      <div className="navbar-copyright">COPYRIGHT 2016. ALL RIGHTS RESERVED.</div>
     </div>
   );
 };

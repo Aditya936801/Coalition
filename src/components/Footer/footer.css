@@ -1,4 +1,4 @@
-.footer-container{
+.footer-container {
     display: flex;
     padding: 13px 5px;
     justify-content: space-around;
@@ -7,8 +7,8 @@
     color: #63769d;
 }
 
-.footer-logo-text{
+.footer-logo-text {
     display: flex;
-    gap:5px;
+    gap: 5px;
     align-items: center;
 }

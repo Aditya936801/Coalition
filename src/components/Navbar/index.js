@@ -6,11 +6,22 @@ const Navbar = () => {
   const [isOnTop, setIsOnTop] = useState(true);
   const handleScroll = () => {
     if (window.scrollY > 0) {
-        setIsOnTop(false);
+      setIsOnTop(false);
     } else {
-        setIsOnTop(true);
+      setIsOnTop(true);
     }
   };
+
+  const scrollToDiv = (ref) => () => {
+    if (ref) {
+      const sectionElement = document.getElementById(ref);
+      const stickyHeaderHeight = 60;
+      const extraOffset = 0;
+      const scrollPosition = sectionElement.offsetTop - stickyHeaderHeight + extraOffset;
+      window.scrollTo({ top: scrollPosition, behavior: "smooth" });
+    }
+  };
+
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => {
@@ -18,11 +29,11 @@ const Navbar = () => {
     };
   }, []);
   return (
-    <div className={`navbar-container ${isOnTop?"navbar-transparent":""}`}>
+    <div className={`navbar-container ${isOnTop ? "navbar-transparent" : ""}`}>
       <img src={logo} alt="Loading..." />
-      <div className={`navbar-links ${isOnTop?"":"navbar-link-black"}`}>
-        <div>01. history</div>
-        <div>02. team</div>
+      <div className={`navbar-links ${isOnTop ? "" : "navbar-link-black"}`}>
+        <div onClick={scrollToDiv("history")}>01. history</div>
+        <div onClick={scrollToDiv("team")}>02. team</div>
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-.navbar-container{
+.navbar-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -10,26 +10,27 @@
     z-index: 100;
 }
 
-.navbar-transparent{
+.navbar-transparent {
     background-color: transparent;
 }
 
-.navbar-links{
+.navbar-links {
     display: flex;
     gap: 50px;
     color: white;
     text-transform: uppercase;
     text-decoration: underline;
 }
-.navbar-link-black{
+
+.navbar-link-black {
     color: black;
 }
 
-.navbar-links div{
+.navbar-links div {
     cursor: pointer;
 }
 
-.App{
+.App {
     height: 200vh;
     background-color: blue;
 }
