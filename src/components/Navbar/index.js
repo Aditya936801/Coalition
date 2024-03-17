@@ -30,7 +30,15 @@ const Navbar = () => {
   }, []);
   return (
     <div className={`navbar-container ${isOnTop ? "navbar-transparent" : ""}`}>
-      <img src={logo} alt="Loading..." />
+      <div className="nav-title-container">
+        <img src={logo} alt="Loading..." />
+        {!isOnTop && (
+          <div className="nav-title">
+            <div>LosAngeles</div>
+            <span>MOuntains</span>
+          </div>
+        )}
+      </div>
       <div className={`navbar-links ${isOnTop ? "" : "navbar-link-black"}`}>
         <div onClick={scrollToDiv("history")}>01. history</div>
         <div onClick={scrollToDiv("team")}>02. team</div>

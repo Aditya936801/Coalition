@@ -113,3 +113,60 @@
     font-size: 13px;
     font-weight: 500;
 }
+
+
+@media only screen and (max-width: 850px) {
+    .mount2-heading-container {
+        margin-left: 8%;
+
+    }
+
+    .mount2-image {
+        height: 50vh;
+    }
+
+    .mount2-text-num {
+        font-size: 80px;
+    }
+
+    .mount2-text-name {
+        font-size: 22px;
+    }
+
+    .mount2-dot {
+        height: 12px;
+        width: 12px;
+
+    }
+
+    .mount2-content {
+        padding-left: 8%;
+        max-width: 80%;
+        font-size: 12px;
+    }
+
+    .mount2-nav {
+        font-size: 18px;
+        padding-left: 10%;
+
+    }
+
+    .mount2-nav div {
+        padding: 0px 12px;
+    }
+
+
+    .mount-schedule {
+        top: 15%;
+        left: 12%;
+        padding: 10px 15px;
+        max-width: 300px;
+
+
+    }
+
+    .mount-schedule-heading {
+        font-size: 28px;
+
+    }
+}

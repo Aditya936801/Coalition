@@ -56,3 +56,34 @@
     background-color: rgba(62, 75, 99, 0.7);
     padding: 20px 5px;
 }
+
+
+@media only screen and (max-width: 850px) {
+    .mount-container {
+        left: 10%;
+    }
+
+    .mountain1-image {
+        height: 70vh;
+    }
+
+    .mount-text-num {
+        font-size: 80px;
+    }
+
+    .mount-text-name {
+        font-size: 22px;
+    }
+
+    .mount-dot {
+        height: 12px;
+        width: 12px;
+
+    }
+
+    .mount-content {
+        padding-left: 15%;
+        max-width: 90%;
+        font-size: 12px;
+    }
+}
