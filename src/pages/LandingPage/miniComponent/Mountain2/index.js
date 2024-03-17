@@ -2,6 +2,7 @@ import "./mountain2.css";
 import bg2 from "../../../../assets/images/landing/bg2.png";
 import { MOUNT_DETAIL } from "../../../../common/constant";
 import { useState } from "react";
+import Accordian from "./minicomponent/Accordian";
 const Mountain2 = () => {
   const [selected, setSelected] = useState("mount1");
 
@@ -23,6 +24,10 @@ const Mountain2 = () => {
         </div>
       </div>
       <div className="mount2-image-container">
+        <div className="accordian-container">
+          <Accordian title="mountain1" data={MOUNT_DETAIL?.mount1} />
+          <Accordian title="mountain2" data={MOUNT_DETAIL?.mount2} />
+        </div>
         <img src={bg2} alt="Loading.." className="mount2-image" />
         <div className="mount2-nav">
           <div className={`${selected === "mount1" ? "tab-selected" : ""}`} onClick={handleClick("mount1")}>
@@ -37,7 +42,7 @@ const Mountain2 = () => {
           <div className="">
             {MOUNT_DETAIL?.[selected]?.schedule?.map((data, idx) => {
               return (
-                <div className="schedule-section">
+                <div className="schedule-section" key={idx}>
                   {data?.detail?.map((el, idx) => {
                     return (
                       <div className="schedule-text" key={idx}>

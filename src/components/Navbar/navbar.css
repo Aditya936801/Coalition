@@ -36,10 +36,7 @@
     cursor: pointer;
 }
 
-.App {
-    height: 200vh;
-    background-color: blue;
-}
+
 
 .nav-title {
     color: #4d4d4d;
@@ -51,4 +48,31 @@
 
 .nav-title span {
     color: #3f4d68;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-container {
+        justify-content: space-between;
+        padding: 0px 10px;
+        height: 55px;
+
+    }
+
+    .nav-image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .nav-title {
+
+        font-size: 17px;
+        line-height: 15px;
+    }
+
+    .navbar-links {
+        gap: 20px;
+        font-size: 15px;
+        font-weight: 600;
+
+    }
 }

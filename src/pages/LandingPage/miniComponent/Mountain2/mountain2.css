@@ -2,6 +2,11 @@
     padding: 25px 5px;
 }
 
+.accordian-container {
+    display: none;
+    width: 100%;
+}
+
 .mount2-image-container {
     position: relative;
 }
@@ -115,6 +120,8 @@
 }
 
 
+
+
 @media only screen and (max-width: 850px) {
     .mount2-heading-container {
         margin-left: 8%;
@@ -169,4 +176,55 @@
         font-size: 28px;
 
     }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .mount2-heading-container {
+        margin-left: 2%;
+
+    }
+
+    .mount2-image {
+        height: 30vh;
+    }
+
+    .mount2-text-num {
+        font-size: 50px;
+    }
+
+    .mount2-text-name {
+        font-size: 15px;
+    }
+
+    .mount2-dot {
+        height: 7px;
+        width: 7px;
+
+    }
+
+    .mount2-container {
+        padding: 10px 5px;
+    }
+
+    .mount2-content {
+        padding-left: 3%;
+        max-width: 95%;
+        font-size: 10px;
+    }
+
+
+    .mount2-nav {
+        display: none;
+    }
+
+
+    .mount-schedule {
+        display: none;
+    }
+
+    .accordian-container {
+        display: block;
+    }
+
 }

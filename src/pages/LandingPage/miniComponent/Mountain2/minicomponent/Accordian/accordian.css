@@ -1,0 +1,42 @@
+.accordian-heading {
+    background-color: #414f6b;
+    padding: 3px 5px;
+    color: #b0b4be;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #b0b4be;
+
+}
+
+.accordian-drop-icon {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+.mount-accordian {
+    width: 100%;
+    padding: 5px 15px;
+    background-color: white;
+}
+
+.mount-schedule-accordian {
+    font-size: 16px;
+    font-weight: 700;
+    color: #414f6b;
+}
+
+.accordian-schedule-section {
+    margin-bottom: 5px;
+}
+
+.accordian-schedule-text {
+    font-size: 10px;
+    display: flex;
+    gap: 20px;
+}

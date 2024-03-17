@@ -11,3 +11,10 @@
 
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .landing-page-image {
+        height: 50vh;
+
+    }
+}

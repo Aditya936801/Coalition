@@ -12,3 +12,21 @@
     gap: 5px;
     align-items: center;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+    .footer-container {
+        justify-content: space-between;
+        padding: 10px 5px;
+    }
+
+    .navbar-copyright {
+        font-size: 10px;
+    }
+
+
+    .footer-logo-text {
+        font-size: 14px;
+    }
+}

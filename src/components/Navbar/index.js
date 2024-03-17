@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     <div className={`navbar-container ${isOnTop ? "navbar-transparent" : ""}`}>
       <div className="nav-title-container">
-        <img src={logo} alt="Loading..." />
+        <img src={logo} alt="Loading..." className="nav-image" />
         {!isOnTop && (
           <div className="nav-title">
             <div>LosAngeles</div>

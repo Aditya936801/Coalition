@@ -19,3 +19,16 @@
     width: 100%;
 
 }
+
+
+@media only screen and (max-width: 850px) {
+    .mountain-carousel .mySwiper {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mountain-carousel .mySwiper {
+        width: 90%;
+    }
+}
